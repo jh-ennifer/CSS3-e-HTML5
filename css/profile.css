@@ -1,0 +1,125 @@
+#header {
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #606c38;
+}
+
+#icon {
+  display: inline;
+  width: 40px;
+  height: 40px;
+}
+
+#nav {
+  margin: 0 500px;
+  height: 40px;
+  display: inline;
+}
+
+a {
+  font-size: 17px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.link-nav {
+  transition: background-color, color 0.5s;
+  padding: 10px 5px;
+}
+
+.link-nav:hover {
+  background-color: #ccd5ae;
+  color: #606c38;
+}
+
+#logout {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#profile-picture {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border: rgba(0, 0, 0, 0.5) solid 2px;
+  border-radius: 100%;
+}
+
+#exit {
+  display: block;
+  padding: 0 5px 10px 5px;
+  transition: background-color, color 0.5s;
+}
+
+#exit:hover {
+  background-color: #ccd5ae;
+  color: #606c38;
+}
+
+#content {
+  padding: 90px 10px;
+}
+
+h3 {
+  width: 1200px;
+  color: #283618;
+  margin-bottom: 15px;
+  border-bottom: #606c38 solid 1px;
+}
+
+.publi {
+  text-align: center;
+
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  width: 650px;
+  height: 400px;
+  background: linear-gradient(to bottom left, #283618, #606c38);
+
+  border: hidden;
+  border-radius: 3px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-publi {
+  width: 300px;
+  height: 300px;
+
+  border: hidden;
+  border-radius: 3px;
+
+  object-fit: cover;
+}
+
+#create-publi {
+  width: 100%;
+  height: 60px;
+
+  bottom: 0;
+  position: fixed;
+
+  text-align: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: #606c38;
+}
+
+#new-publi {
+  width: 40px;
+  height: 40px;
+  transition: width height 0.5s;
+}
+
+#new-publi:hover{
+  width: 50px;
+  height: 50px;
+}
