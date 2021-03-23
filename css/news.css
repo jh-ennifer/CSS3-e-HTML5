@@ -5,7 +5,7 @@ h3 {
   border-bottom: #606c38 solid 1px;
 }
 
-.publi {
+.friend-publi {
   text-align: center;
 
   padding: 20px;
@@ -15,7 +15,7 @@ h3 {
   margin-bottom: 20px;
 
   width: 650px;
-  height: 400px;
+  height: 500px;
   background: linear-gradient(to bottom left, #283618, #606c38);
 
   border: hidden;
@@ -23,12 +23,35 @@ h3 {
   box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.image-publi {
+.friend-identification {
+  width: 180px;
+  margin-right: 430px;
+  display: inline-block;
+}
+
+.profile-picture-friend {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+
+  border-radius: 100%;
+  border: rgba(0, 0, 0, 0.5) solid 2px;
+}
+
+span {
+  margin-left: 10px;
+  
+  font-size: large;
+  font-weight: bolder;
+}
+
+.friend-image {
   width: 300px;
   height: 300px;
+  object-fit: cover;
+
+  margin: 8px 0;
 
   border: hidden;
   border-radius: 5px;
-
-  object-fit: cover;
 }
