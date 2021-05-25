@@ -33,9 +33,13 @@ h3 {
   width: 80px;
   height: 80px;
   object-fit: cover;
+  margin: 0;
 
-  border-radius: 100%;
-  border: rgba(0, 0, 0, 0.5) solid 2px;
+  border: rgba(0, 0, 0, 0.5) solid 4px;
+}
+
+.friendName{
+  margin-left: 0;
 }
 
 span {
@@ -55,3 +59,4 @@ span {
   border: hidden;
   border-radius: 5px;
 }
+
