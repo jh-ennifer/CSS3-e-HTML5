@@ -1,69 +1,67 @@
-
 body {
-    height: 100vh;
-    padding: 15vh 35vw;
-  }
-  
-  #login-box {
-    text-align: center;
-  
-    width: 400px;
-    height: 450px;
-    background: linear-gradient(to bottom left, #283618, #606c38);
-  
-    border: hidden;
-    border-radius: 3px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  img {
-    width: 50px;
-    margin: 5px;
-    height: 50px;
-  }
-  
-  span {
-    width: 300px;
-    display: block;
-    margin: 5px auto;
-  }
-  
-  form {
-    width: 100%;
-    height: 250px;
-    padding: 35px;
-    margin: 20px 0;
-    text-align: left;
-  }
-  
-  input {
-    width: 100%;
-    height: 30px;
-    padding: 5px;
-    margin-bottom: 20px;
-    color: #606c38;
-    background-color: #fefae0;
-  
-    border: hidden;
-    border-radius: 2px;
-  }
-  
-  #submit {
-    cursor: pointer;
-  
-    color: #606c38;
-    font-size: larger;
-  
-    width: 100%;
-    height: 50px;
-    border: hidden;
-    border-radius: 2px;
-    margin-bottom: 20px auto;
-    background-color: #fefae0;
-    transition: box-shadow 0.5s;
-  }
-  
-  #submit:hover {
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
-  }
-  
+  height: 100vh;
+  padding: 15vh 35vw;
+}
+
+#login-box {
+  text-align: center;
+
+  width: 400px;
+  height: 450px;
+  background: linear-gradient(to bottom left, #283618, #606c38);
+
+  border: hidden;
+  border-radius: 3px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 50px;
+  margin: 5px;
+  height: 50px;
+}
+
+span {
+  width: 300px;
+  display: block;
+  margin: 5px auto;
+}
+
+form {
+  width: 100%;
+  height: 250px;
+  padding: 35px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+  color: #606c38;
+  background-color: #fefae0;
+
+  border: hidden;
+  border-radius: 2px;
+}
+
+#submit {
+  cursor: pointer;
+
+  color: #606c38;
+  font-size: larger;
+
+  width: 100%;
+  height: 50px;
+  border: hidden;
+  border-radius: 2px;
+  margin-bottom: 20px auto;
+  background-color: #fefae0;
+  transition: box-shadow 0.5s;
+}
+
+#submit:hover {
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+}

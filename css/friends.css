@@ -1,50 +1,50 @@
-.friendsProfile{
-    padding: 90px 10px;
+.friendsProfile {
+  padding: 90px 10px;
 }
 
 h3 {
-    width: 1200px;
-    color: #283618;
-    margin-bottom: 15px;
-    border-bottom: #606c38 solid 1px;
+  width: 1200px;
+  color: #283618;
+  margin-bottom: 15px;
+  border-bottom: #606c38 solid 1px;
 }
 
-.profiles{
-    padding: 75px 137px;
+.profiles {
+  padding: 75px 137px;
 }
 
-.boxProfileFriends{
-    text-align: center;
-    display: inline-block;
-  
-    width: 275px;
-    height: 320px;    
-    background: linear-gradient(to bottom left, #283618, #606c38);
+.boxProfileFriends {
+  text-align: center;
+  display: inline-block;
 
-    margin: 10px;
-    padding: 25px;
-  
-    border: hidden;
-    border-radius: 3px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+  width: 275px;
+  height: 320px;
+  background: linear-gradient(to bottom left, #283618, #606c38);
+
+  margin: 10px;
+  padding: 25px;
+
+  border: hidden;
+  border-radius: 3px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.profilePictureFriend{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin: 0;
+.profilePictureFriend {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0;
 
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
-.friendName{
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
+.friendName {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
 }
 
-.description{
-    margin-top: 10px;
-    font-size: 17px;
+.description {
+  margin-top: 10px;
+  font-size: 17px;
 }

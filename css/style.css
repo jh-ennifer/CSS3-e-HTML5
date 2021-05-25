@@ -19,11 +19,11 @@ body {
 
   top: 0;
   position: fixed;
-  
+
   background-color: #606c38;
 }
 
-#icon {  
+#icon {
   width: 40px;
   height: 40px;
   display: inline;
@@ -35,18 +35,18 @@ body {
   display: inline;
 }
 
-a {  
+a {
   margin: 0 5px;
   font-size: 17px;
   text-decoration: none;
 }
 
-.link-nav {  
+.link-nav {
   padding: 10px 5px;
   transition: background-color, color 0.5s;
 }
 
-.link-nav:hover {  
+.link-nav:hover {
   color: #606c38;
   background-color: #ccd5ae;
 }
@@ -56,7 +56,7 @@ a {
   display: inline-block;
 }
 
-#profile-picture {  
+#profile-picture {
   width: 40px;
   height: 40px;
   object-fit: cover;
@@ -70,7 +70,7 @@ a {
   transition: background-color, color 0.5s;
 }
 
-#exit:hover {  
+#exit:hover {
   color: #606c38;
   background-color: #ccd5ae;
 }
@@ -79,7 +79,7 @@ a {
   padding: 90px 10px;
 }
 
-p{
+p {
   font-weight: lighter;
 }
 
@@ -104,7 +104,7 @@ p{
   transition: width height 0.5s;
 }
 
-#new-publi:hover{
+#new-publi:hover {
   width: 50px;
   height: 50px;
 }
