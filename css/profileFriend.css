@@ -1,0 +1,18 @@
+.content{
+    padding: 85px 10px;
+}
+
+.friend-identification {
+    width: 100px;
+    margin-right: 430px;
+    display: inline-block;
+}
+  
+.profile-picture-friend {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0;
+  
+    border: rgba(0, 0, 0, 0.5) solid 4px;
+}
